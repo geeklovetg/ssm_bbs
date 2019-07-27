@@ -1,0 +1,54 @@
+.bottom{
+	width: 830px; 
+	margin: 0 20px; 
+	border: 1px solid #DBDBDB;
+	padding: 10px;
+	float: left;
+	height: 350px;
+}
+h2{
+	font-size: 18px;
+	margin: 5px;
+}
+.one{
+	margin: 0 auto;
+	width: 820px;
+}
+.one>input{
+	width: 801px; 
+	height: 10px;
+	font-size: 14px;
+	color:#3D3D3D;
+	padding: 10px;
+}
+
+.two{
+	width: 820px;
+	margin: 10px auto;
+}
+.two>textarea{
+	width:803px;
+	height: 178px;
+	margin: 0 auto;
+	display: block;
+	text-align:left;
+	padding: 10px;
+	font-size: 14px;
+	color:#3D3D3D;
+}
+.two>input{
+  display: block;
+  width: 825px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  background-color: #3f89ec;
+  margin: 10px auto;
+}
+.two>input:HOVER {
+  background-color:#3f89ecbf;
+}

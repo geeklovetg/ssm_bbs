@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<!-- namespace：当前XML文件用于配置哪个接口中抽象方法对应的SQL语句 -->
+
+<mapper namespace="com.coder.dao.UserMapper">
+    <resultMap  id="UserEntityMap" type="com.coder.entity.User">
+        <result column="uid" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="email" property="email"/>
+        <result column="nickname" property="nickname"/>
+        <result column="phoneNumber" property="phoneNumber"/>
+    </resultMap>
+
+    <select id="findById"
+            resultType="com.coder.entity.User">
+        SELECT * FROM user WHERE uid=#{uid}
+    </select>
+
+    <select id="findByUserName"
+            resultType="com.coder.entity.User">
+        SELECT * FROM user WHERE username=#{username}
+    </select>
+</mapper>

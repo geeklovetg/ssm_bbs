@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+.login {
+  margin: 0 auto;
+  margin-top:8%;
+  width: 500px;
+  border: 1px solid #ccc;
+  padding: 20px 0;
+  position: relative;
+}
+.login  h1{
+  text-align: center;
+  font-size: 24px;
+  color: #3d3d3d;
+}
+.login p>label {
+  height: 42px;
+  width: 70px;
+  line-height: 42px;
+  color: #666;
+  font-weight: 700;
+  text-align: right;
+  margin: 10px;
+  display: inline-block;
+  border: 0;
+}
+
+.login p>input {
+  height: 30px;
+  width: 329px;
+  padding: 10px 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #666;
+}
+
+#login_submit {
+  display: block;
+  width: 420px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  background-color: #3f89ec;
+  margin: 10px auto;
+}
+#login_submit:HOVER {
+  background-color:#3f89ecbf;
+}
+#remembe{
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
+}
+.remembe_lable{
+  width: 80px !important;
+  height:40px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 9px !important;
+}
+.remembe_a{
+  text-decoration: none;
+  position: absolute;
+  right: 45px;
+  font-size: 14px;
+  color: #3f89ec;
+  height: 40px;
+  line-height: 40px;
+}
+.remembe_a:HOVER{
+  color: #3f89ecbf;
+}
+.remembe_a_pwd{
+  text-decoration: none;
+  position: absolute;
+  right: 90px;
+  font-size: 14px;
+  color: #3f89ec;
+  height: 40px;
+  line-height: 40px;
+}
+.remembe_a_pwd:HOVER{
+  color: #3f89ecbf;
+}
+span{
+  display: block;
+  width: 200px;
+  margin-left: 105px;
+  font-size: 9px;
+  color: #f44444;
+}

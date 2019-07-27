@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation_bars {
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+	background-color: white;
+	position: fixed;
+}
+
+.navigation_bars>ul {
+	list-style-type: none;
+	margin: 0px auto;
+}
+
+.navigation_bars>ul li {
+	float: left;
+	width: 66px;
+	height: 60px;
+	text-align: center;
+	margin: 0px 5px;
+	display: block;
+	overflow:hidden; 
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+.navigation_bars>ul>li>a {
+	width: 40px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 14px;
+	color: #3D3D3D;
+	text-decoration: none;
+}
+
+.navigation_bars>ul>li>a:HOVER {
+	color: #f44444;
+}
+
+.navigation_bars_logo {
+	width: 70px !important;
+	margin-left: 45px !important;
+}
+
+.navigation_bars_logo>a {
+	width: 70px !important;
+}
+
+.navigation_bars_logo>a>img {
+	width: 70px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.navigation_bars_logo_search {
+	width: 170px !important;
+	position: relative;
+}
+
+.navigation_bars_logo_search>input {
+	width: 151px;
+	height: 26px;
+	margin: 15px auto;
+	border-radius: 10px;
+	border: 1px solid #DBDBDB;
+	padding-left: 5px;
+}
+
+.navigation_bars_logo_search>img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.navigation_bars_login {
+	background-color: white;
+	position: fixed;
+	display: none;
+	border: 1px solid #DBDBDB;
+	width: 64px;
+}
+
+.navigation_bars_login>ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0
+}
+
+.navigation_bars_login>ul>li {
+	width: 64px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.navigation_bars_login>ul>li:HOVER {
+	background-color: #f44444;
+}
+
+.navigation_bars_login>ul>li>a {
+	width: 64px;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #3D3D3D;
+	display: block;
+	font-size: 12px;
+}
+
+.navigation_bars_login>ul>li>a:HOVER {
+	color: white;
+}
+
+.login_li{
+	
+}
+
+.clear {
+	height: 60px;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+}
